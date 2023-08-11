@@ -20,5 +20,6 @@ public class TextService implements TextServiceImpl {
         TextUtils textUtils = new TextUtils();
         Logger logger1 = new Logger();
         logger1.print(response, textUtils.countChars(response));
+
     }
 }

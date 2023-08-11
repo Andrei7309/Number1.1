@@ -14,7 +14,7 @@ public class Logger {
         float averageFrequency = totalFrequency / charCountMap.size();
         System.out.println("Среднее значение частоты: " + (int) totalFrequency +  " / " + charCountMap.size()
         + " = " + averageFrequency);
-        System.out.println("Символ наиболее близкого значения частоты к среднему значанию: ");
+        System.out.println("Символ наиболее близкого значения частоты к среднему значанию:");
                closestSymbol(charCountMap, averageFrequency).forEach(cl ->
                        System.out.println(cl.toString() + " (" + (int) cl + ")"));
     }

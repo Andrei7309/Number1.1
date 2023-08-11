@@ -22,5 +22,6 @@ public class TextProvider implements TextProviderImpl {
         }
         in.close();
         return response.toString();
+
     }
 }
